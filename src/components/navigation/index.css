@@ -1,0 +1,112 @@
+nav {
+    box-shadow: 0 8px 6px -6px #d8e3e7;
+    font-family: 'Ubuntu Mono', monospace;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8e3e7;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.logo {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 7px;
+    padding-left: 30px;
+}
+
+.web h3 {
+    letter-spacing: 1.5rem;
+    margin-left: 10px;
+}
+
+.web {
+    margin: 25px;
+}
+
+.web ul {
+    justify-content: center;
+    /* margin: 30px; */
+    list-style: none;
+    padding-left: 50px;
+}
+
+.web li {
+    display: inline;
+    margin: 20px;
+}
+
+.logo {
+    color: #0a1931;
+}
+
+nav .web a {
+    text-decoration: none;
+    color: #0a1931;
+    font-size: 17px;
+}
+
+nav .web a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .logo a {
+        color: #ffffff;
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+    .mobile ul  {
+        margin-top: 20px;
+        display: inline-block;
+        justify-content: flex-start;
+        list-style: none;
+    }
+    .mobile li {
+        margin-bottom: 15px;
+    }
+
+    nav .mobile a {
+        text-align: center;
+        color: #0a1931;
+        margin-top: 50px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    nav .mobile a:hover {
+        text-align: center;
+        color: crimson;
+        text-decoration: none;
+    }
+
+    .menu-open {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .web {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 5px;
+    }
+}
