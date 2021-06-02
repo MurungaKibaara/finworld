@@ -10,16 +10,16 @@ const Navigation = () => {
            <header>
             <a href="#home">
                <div className="logo">
-                    <Home fontSize="large" style={{ 'color': '#0a1931', 'margin': 12 }} />
-                    {/* <h3>{ !open && 'M K .'}</h3> */}
+                    <Home style={{ 'color': '#0a1931', 'margin': 15, fontSize: 25 }} />
+                    <h3>{ !open && 'Finance World'}</h3>
                 </div>
             </a>
 
                <ul className="web">
                    <li><a href="#home">Home</a></li>
-                   <li><a href="#about">About</a></li>
-                   <li><a href="#projects">Projects</a></li>
-                   <li><a href="#contacts">Contacts</a></li>
+                   <li><a href="#about">Stock Market</a></li>
+                   <li><a href="#projects">Crypto Currencies</a></li>
+                   {/* <li><a href="#contacts">Contacts</a></li> */}
                </ul>
 
                <div className="mobile">
@@ -40,7 +40,9 @@ const Navigation = () => {
                                 style={{
                                     'justifyContent': 'flex-end',
                                     'color': '#0a1931',
-                                    'margin': 12,
+                                    'margin': 15,
+                                    'marginTop': 22,
+                                    'fontSize': 25,
                                     'marginLeft': 25
                                 }}
                             />
@@ -48,11 +50,12 @@ const Navigation = () => {
                         : <>
                         <Menu
                             onClick={() => setOpen(!open)}
-                            fontSize="large"
                             style={{
                                 'justifyContent': 'flex-end',
                                 'color': '#0a1931',
-                                'margin': 12,
+                                'margin': 15,
+                                'marginTop': 22,
+                                'fontSize': 25,
                                 'marginLeft': 25
                             }}
                         /> 
