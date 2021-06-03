@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Menu, MenuOpen, Close, Money} from '@material-ui/icons';
+import { Menu, Close, Money} from '@material-ui/icons';
 import './index.css';
 
 const Navigation = () => {

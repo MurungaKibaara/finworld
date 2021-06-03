@@ -65,7 +65,7 @@ const Index = () => {
                 ))
             }
             </table>
-            
+            {console.log(error)}
         </div>
     )
 }
