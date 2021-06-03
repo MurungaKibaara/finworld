@@ -3,10 +3,9 @@
     flex-direction: column;
     font-family: 'Ubuntu Mono', monospace;
     color: #0a1931;
-    /* height: 60vh; */
     text-align: center;
     justify-content: center;
-    margin-top: -5%;
+    margin-top: -2%;
     margin-bottom: 50px;
 }
 
@@ -19,4 +18,10 @@ table, th, td {
     padding: 10px;
     border-bottom: 1px solid rgb(170, 167, 167);
   }
-  
+
+  @media screen and (max-width:768px) {
+      .table {
+          width: 80%;
+      }
+ 
+}

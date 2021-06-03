@@ -5,6 +5,7 @@
     font-family: 'Ubuntu Mono', monospace;
 }
 .about {
+    margin: auto;
     width: 100%;
     color: #ffffff;
 }
@@ -60,9 +61,19 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+    footer {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
     .about {
+        margin: auto;
+        width: 90%;
         text-align: center;
         justify-content: center;
+        text-align: center;
+    }
+    .about p {
         text-align: center;
     }
     .main {

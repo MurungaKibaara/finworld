@@ -26,9 +26,9 @@
 
 .container {
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 5%;
     width: 100%;
-    height: 512px;
+    /* height: 512px; */
     transition: clip-path .5s ease-in;
 }
 
@@ -40,21 +40,14 @@
 
 .hero h2 {
     color: #0a1931;
-    /* margin-left: 20px; */
+    /* text-align: center; */
+    margin-left: 20px;
 }
 
 .hero p {
     margin-top: 10%;
     color: #0a1931;
 }
-
-/* .hero-button-style {
-    background: 'blue';
-    margin-right: '10%';
-    padding-left: '20px';
-    padding-right: '20px';
-    color: '#ffffff'
-} */
 
 @media screen and (max-width:768px) {
     .hero {
@@ -68,9 +61,12 @@
         margin: auto;
         justify-content: center;
     }
+    .hero p {
+        margin: auto;
+    }
     .hero-image {
         margin: auto;
-        width: 100%;
+        width: 90%;
     }
     .hero img {
         width: 100%;
