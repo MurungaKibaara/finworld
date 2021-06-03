@@ -8,7 +8,7 @@ const Index = () => {
             <footer>
                 <div className="about">
                     <h3>About Us</h3>
-                    <p>Finance world is a website that is supposed to provide you with the information about your favourite assets.</p>
+                    <p>Finance world is a website whose primary goal is to provide you with information about your favourite financial assets.</p>
                 </div>
                 <div className="main">
                     <div className="contacts">

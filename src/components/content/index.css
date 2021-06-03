@@ -1,0 +1,21 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #0a1931;
+    /* height: 60vh; */
+    text-align: center;
+    justify-content: center;
+    margin-top: -5%;
+    margin-bottom: 50px;
+}
+
+table {
+    margin: auto;
+    width: 90%;
+}
+
+table, th, td {
+    padding: 10px;
+    border-bottom: 1px solid rgb(170, 167, 167);
+  }
