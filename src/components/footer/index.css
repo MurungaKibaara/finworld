@@ -5,7 +5,7 @@
     font-family: 'Ubuntu Mono', monospace;
 }
 .about {
-    margin: auto;
+    /* margin: auto; */
     width: 100%;
     color: #ffffff;
 }
@@ -23,6 +23,11 @@
     color: #ffffff;
     text-align: center;
     justify-content: center;
+}
+
+.contacts h3 {
+    margin-right: 10%;
+    text-align: center;
 }
 
 .contact-type {
@@ -93,6 +98,10 @@ footer {
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+
+    .contacts h3 {
+        margin-right: 0%;
     }
     .contact-type {
         justify-content: center;

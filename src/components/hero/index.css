@@ -62,7 +62,15 @@
         justify-content: center;
     }
     .hero p {
+        text-align: center;
         margin: auto;
+    }
+    .hero h1 {
+        text-align: center;
+    }
+
+    .hero h2 {
+        text-align: center;
     }
     .hero-image {
         margin: auto;
