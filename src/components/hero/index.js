@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
-import Hero from '../../assets/hero.png';
+import Hero from '../../assets/hero.svg';
 import './index.css'
 
 function Index() {

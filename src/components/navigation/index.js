@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Menu, MenuOpen, Close} from '@material-ui/icons';
+import { Home, Menu, MenuOpen, Close, Money} from '@material-ui/icons';
 import './index.css';
 
 const Navigation = () => {
@@ -10,8 +10,8 @@ const Navigation = () => {
            <header>
             <a href="#home">
                <div className="logo">
-                    <Home style={{ 'color': '#0a1931', 'margin': 15, fontSize: 25 }} />
-                    <h3>{ !open && 'Finance World'}</h3>
+                    <Money style={{ 'color': '#0a1931', 'margin': 15, fontSize: 25 }} />
+                    <h3>{ !open && 'FinWorld .'}</h3>
                 </div>
             </a>
 

@@ -1,0 +1,60 @@
+.footer {
+    background-color: rgb(2, 2, 26);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.about {
+    width: 100%;
+    color: #ffffff;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #ffffff;
+}
+
+.contacts {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-type {
+    /* margin-left: 30px; */
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+}
+
+.socials {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.socials .follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.copyright {
+    background-color: rgb(14, 3, 44);
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer {
+    margin: 30px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
