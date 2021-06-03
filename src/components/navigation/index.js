@@ -26,9 +26,9 @@ const Navigation = () => {
                 { open && 
                         <ul>
                             <li onClick={() => setOpen(!open)}><a href="#home">Home</a></li>
-                            <li onClick={() => setOpen(!open)}><a href="#home">About</a></li>
-                            <li onClick={() => setOpen(!open)}><a href="#home">Projects</a></li>
-                            <li onClick={() => setOpen(!open)}><a href="#home">Contacts</a></li>
+                            <li onClick={() => setOpen(!open)}><a href="#home">Stocks</a></li>
+                            <li onClick={() => setOpen(!open)}><a href="#home">Crypto</a></li>
+                            {/* <li onClick={() => setOpen(!open)}><a href="#home">Contacts</a></li> */}
                         </ul>
                     }
                 
