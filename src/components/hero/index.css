@@ -13,6 +13,11 @@
     width: 100%;
 }
 
+.hero img {
+    width: 512px;
+    height: 512px;
+}
+
 .hero-buttons {
     margin-top: 10%;
     display: flex;
@@ -56,5 +61,19 @@
         display: flex;
         flex-direction: column;
         justify-content: 'center';
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .hero-image {
+        margin: auto;
+        width: 100%;
+    }
+    .hero img {
+        justify-content: center;
+        width: 240px;
+        height: 240px;
     }
 }

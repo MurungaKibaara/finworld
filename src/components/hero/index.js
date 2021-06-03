@@ -20,8 +20,7 @@ function Index() {
                         marginRight: '8%',
                         paddingLeft: '20px',
                         paddingRight: '20px',
-                        
-                        }} 
+                        }}
                         size="medium"
                         variant="outlined"
                         color="primary">Stocks</Button>
