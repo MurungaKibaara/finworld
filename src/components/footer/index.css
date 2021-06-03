@@ -58,3 +58,36 @@ footer {
     display: flex;
     flex-direction: row;
 }
+
+@media screen and (max-width:768px) {
+    .about {
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .main {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+    }
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .contacts {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .follow {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+

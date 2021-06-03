@@ -21,7 +21,7 @@ const Index = () => {
 
                         <div className="contact-type">
                             <Phone style={{ 'color': '#ffffff', 'margin': 15, fontSize: 25 }} />
-                            <p>+254712345678/+2547134567892</p>
+                            <p>+254712345678</p>
                         </div>
 
                         <div className="contact-type">
